@@ -6,7 +6,7 @@ require_once("./connectDB.php");
 
 if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] == "POST") {
     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-    $college = filter_var($_POST['college'], FILTER_SANITIZE_EMAIL);
+    $college = filter_var($_POST['college'], FILTER_SANITIZE_STRING);
     $GPA = filter_var($_POST['GPA'], FILTER_SANITIZE_NUMBER_INT);
     $department = filter_var($_POST['department'], FILTER_SANITIZE_STRING);
 
