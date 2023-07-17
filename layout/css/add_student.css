@@ -1,0 +1,52 @@
+body {
+  background-image: url(../../img/college.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+.form {
+  background-color: #1f3646;
+  width: 50%;
+  margin: auto;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 12rem;
+}
+label {
+  font-size: x-large;
+  font-weight: bold;
+}
+.input {
+  border: 0px;
+  border: 2px solid black;
+  font-size: 20px;
+  text-align: center;
+  width: 60%;
+  height: 25px;
+  border-radius: 40px;
+  margin-left: 50px;
+}
+
+.form input[name="name"]:focus,
+.form input[name="college"]:focus,
+.form input[name="GPA"]:focus,
+.form input[name="department"]:focus {
+  width: 80%;
+}
+.sub {
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  border-radius: 40px;
+  margin-left: 190px;
+}
+.form input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+form {
+  margin-left: 25%;
+}
